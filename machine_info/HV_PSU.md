@@ -1,5 +1,19 @@
 Tube HV PSU info
-----------------
+================
+
+Abridged
+--------
+
+*  Input voltage: 220V AC (47- 440Hz)
+*  Max output voltage: 50kV
+*  Max output current: 23mA
+*  Overcurrent protection: 130% of max = 29.9mA
+*  Efficiency: 91%
+*  Operating temperature: -30 to 65 degC
+*  Operating humidity: 20 to 85 %RH
+
+Original
+--------
 
 Some very badly Chinese translated info about the tube PSU.   
 Originally found [here](http://zevele.com/201304/carbon-dioxide-laser-power-myjg-60w.html)
