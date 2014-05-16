@@ -1,6 +1,23 @@
 Tube HV PSU info
 ================
 
+LEDs
+----
+
+Based on watching them whilst doing different things with the machine:
+
+*  Green = Data/Control   
+   Will be lit when the PSU things it should be on based on the serial control
+   data
+*  Amber = Interlock closed   
+   Will be lit when the front guard is closed, will not power on if this LED
+   is not lit
+*  Red (dim) = HV Armed?   
+   Seems to be dim when there is control data turning the supply on but the
+   enable signal is high
+*  Red (bright) = HV On   
+   Indicates the HV output is active
+
 Abridged
 --------
 
