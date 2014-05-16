@@ -4,19 +4,31 @@ Tube HV PSU info
 Some very badly Chinese translated info about the tube PSU.   
 Originally found [here](http://zevele.com/201304/carbon-dioxide-laser-power-myjg-60w.html)
 
-
 ```
 MYJG-60W
 
-This power adopts the soft switching circuit of zero-current semi-bridge, it is high in efficiency to make the power have, the quick characteristic of the speed of response, it is very apt to cooperate with the laser tubes of different producers. Port control is simple, meet two kinds of signals of level level, can control the opening, stopping of laser with TTL level, plus the unusual protective switch at the same time and find whether the outside is the water-flowing, ventilates etc..
+This power adopts the soft switching circuit of zero-current semi-bridge, it   
+is high in efficiency to make the power have, the quick characteristic of the   
+speed of response, it is very apt to cooperate with the laser tubes of   
+different producers.
 
-Laser power regulation can input 0 analog signal in 5V, all right for control magnitude of laser power signal, PWM of input.
+Port control is simple, meet two kinds of signals of level level, can control   
+the opening, stopping of laser with TTL level, plus the unusual protective   
+switch at the same time and find whether the outside is the water-flowing,   
+ventilates etc..
 
-The power opens a way to protect the function: In good in protection ground cases, power can short time work on state of opening a way, so can avoid causing the damage of the laser power by the fact that the laser tube burst.
+Laser power regulation can input 0 analog signal in 5V, all right for control   
+magnitude of laser power signal, PWM of input.
+
+The power opens a way to protect the function: In good in protection ground   
+cases, power can short time work on state of opening a way, so can avoid   
+causing the damage of the laser power by the fact that the laser tube burst.
 
 Factory's degradation testing happens:
 
-Each power will be through being fully loaded with degradation testing of 12 hours of 60 degrees of high temperature under the state, the open and close of 7 seconds power is tested for 500 times
+Each power will be through being fully loaded with degradation testing of 12   
+hours of 60 degrees of high temperature under the state, the open and close   
+of 7 seconds power is tested for 500 times
 
 Main technical parameter:
 
