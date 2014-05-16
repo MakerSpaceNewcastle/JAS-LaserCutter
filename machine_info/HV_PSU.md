@@ -7,7 +7,7 @@ LEDs
 Based on watching them whilst doing different things with the machine:
 
 *  Green = Data/Control   
-   Will be lit when the PSU things it should be on based on the serial control
+   Will be lit when the PSU thinks it should be on based on the serial control
    data
 *  Amber = Interlock closed   
    Will be lit when the front guard is closed, will not power on if this LED
