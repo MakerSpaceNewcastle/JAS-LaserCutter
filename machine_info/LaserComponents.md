@@ -21,11 +21,11 @@ It is best to familiarise yourself with the components in the laser cutter, this
   4.  Open the lower right side panel:
 ![Lower Right Door](../images/panels/lower_right.jpg)
     -  Within the metal box:
-      -  On the left is the power supply for the stepper motors
+      -  On the left is the 48V power supply for the stepper motors
       -  In the bottom centre is the 24V power supply for the control logic
       -  On the bottom right is the laser control board
-        -  Blue USB connects to the laptop
-        -  Black USB connects to the side USB port
+        -  USB1 connects to the laptop
+        -  USB2 connects to the side USB port
         -  Black D-Sub connector connects to the front panel?
       -  On the top from left to right:
         -  5V? power supply (for LEDs, red laser?)
