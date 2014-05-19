@@ -28,12 +28,12 @@ It is best to familiarise yourself with the components in the laser cutter, this
         -  USB2 connects to the side USB port
         -  Black D-Sub connector connects to the front panel?
       -  On the top from left to right:
-        -  5V? power supply (for LEDs, red laser?)
+        -  5V power supply for the red laser
         -  X axis stepper driver
         -  Y axis stepper driver
         -  Z axis stepper driver
     -  On top of the box is a mains power filter
-    -  Above the metal box is a rats nest of cabling cable tied together into one incomprehensible mess carrying a mixture of 5v power and logic, 24v logic, the stepper driver outputs, 240v mains and the HV cathode
+    -  Above the metal box is a rats nest of cabling cable tied together into one incomprehensible mess carrying a mixture of 5V power and logic, 24V logic, the stepper driver outputs, 240V mains and the HV cathode
     -  Behind the box to the left is the high voltage supply for the laser tube
   5.  Open the front double doors:
 ![Lower Front Doors](../images/panels/lower_front.jpg)
