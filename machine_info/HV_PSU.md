@@ -1,6 +1,11 @@
 Tube HV PSU info
 ================
 
+General stuff
+-------------
+
+The interlock is connected between the ```P``` and ```G``` pins, I'm assuming G is ground.
+
 LEDs
 ----
 
