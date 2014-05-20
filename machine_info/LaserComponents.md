@@ -32,7 +32,14 @@ It is best to familiarise yourself with the components in the laser cutter, this
         -  X axis stepper driver
         -  Y axis stepper driver
         -  Z axis stepper driver
-    -  On top of the box is a mains power filter
+    -  On top of the box from left to right is:
+        -  A DSUB connection for all 3 limit switches
+        -  A round connector for the X axis motor
+        -  A round connector for the Z axis motor
+        -  A mains power filter
+    -  On the right of the box from top to bottom is:
+        -  A very unsafe IEC connector
+        -  A DSUB connection for the control data to the HV PSU
     -  Above the metal box is a rats nest of cabling cable tied together into one incomprehensible mess carrying a mixture of 5V power and logic, 24V logic, the stepper driver outputs, 240V mains and the HV cathode
     -  Behind the box to the left is the high voltage supply for the laser tube
   5.  Open the front double doors:
