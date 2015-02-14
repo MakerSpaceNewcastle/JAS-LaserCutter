@@ -15,8 +15,8 @@ Based on watching them whilst doing different things with the machine:
    Will be lit when the PSU thinks it should be on based on the serial control
    data
 *  Amber = Interlock closed   
-   Will be lit when the front guard is closed or water flow sensor does not
-   detect water flow, will not power on if this LED is not lit
+   Will be lit when the front guard is closed and water flow sensor detects
+   water flow, will not power on if this LED is not lit
 *  Red (dim) = HV Armed?   
    Seems to be dim when there is control data turning the supply on but the
    enable signal is high
