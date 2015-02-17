@@ -6,9 +6,9 @@ MD5::MD5()
 	return;
 }
 
-char* MD5::make_digest(const unsigned char *digest, int len) /* {{{ */
+char* MD5::make_digest(const unsigned char *digest, int len, char *buf) /* {{{ */
 {
-	char * md5str = (char*) malloc(sizeof(char)*(len*2+1));
+	char * md5str = buf; //(char*) malloc(sizeof(char)*(len*2+1));
 	static const char hexits[17] = "0123456789abcdef";
 	int i;
 
@@ -278,13 +278,12 @@ void MD5::MD5Final(unsigned char *result, void *ctxBuf)
 
 	memset(ctx, 0, sizeof(*ctx));
 }
-unsigned char* MD5::make_hash(char *arg)
+unsigned char* MD5::make_hash(const char *arg, char* buf)
 {
 	MD5_CTX context;
-	unsigned char * hash = (unsigned char *) malloc(16);
+	unsigned char * hash = (unsigned char *) buffer; //malloc(16);
 	MD5Init(&context);
 	MD5Update(&context, arg, strlen(arg));
 	MD5Final(hash, &context);
 	return hash;
 }
-

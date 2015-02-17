@@ -23,6 +23,8 @@
 /*
  * Updated by Scott MacVicar for arduino
  * <scott@macvicar.net>
+ * Updated by David Pye for static memory allocation
+ * <davidmpye@gmail.com>
  */
 
 #include <string.h>
@@ -40,8 +42,8 @@ class MD5
 {
 public:
 	MD5();
-	static unsigned char* make_hash(char *arg);
-	static char* make_digest(const unsigned char *digest, int len);
+	static unsigned char* make_hash(const char *arg, char *buf);
+	static char* make_digest(const unsigned char *digest, int len, char *buf);
  	static const void *body(void *ctxBuf, const void *data, size_t size);
 	static void MD5Init(void *ctxBuf);
 	static void MD5Final(unsigned char *result, void *ctxBuf);
