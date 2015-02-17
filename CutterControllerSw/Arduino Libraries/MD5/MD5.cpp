@@ -281,7 +281,7 @@ void MD5::MD5Final(unsigned char *result, void *ctxBuf)
 unsigned char* MD5::make_hash(const char *arg, char* buf)
 {
 	MD5_CTX context;
-	unsigned char * hash = (unsigned char *) buffer; //malloc(16);
+	unsigned char * hash = (unsigned char *) buf; //malloc(16);
 	MD5Init(&context);
 	MD5Update(&context, arg, strlen(arg));
 	MD5Final(hash, &context);
